@@ -10,7 +10,6 @@ import { Container } from '@components/Container';
 import { Main } from '@components/Main';
 import { DarkModeSwitch } from '@components/DarkModeSwitch';
 import SideBar from '@components/SideBar';
-import { Hero } from '@components/Hero';
 import React from "react"
 
 const Advanced = () => {
