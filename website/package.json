@@ -1,10 +1,13 @@
 {
   "name": "with-chakra-ui-typescript",
+  "homepage": "https://HuskYzPinto.github.io/AmazonData",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@chakra-ui/icons": "^1.0.5",
@@ -21,6 +24,7 @@
     "@types/node": "^14.6.0",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
+    "gh-pages": "^3.2.0",
     "typescript": "4.2.3"
   },
   "license": "MIT"
