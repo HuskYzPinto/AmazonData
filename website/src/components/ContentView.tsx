@@ -1,5 +1,5 @@
 import React from 'react';
-import { Stack, StackProps } from '@chakra-ui/react'
+import { Stack, StackProps, useColorMode } from '@chakra-ui/react'
 
 
 const ContentView = (props: StackProps) => {

@@ -16,13 +16,14 @@ import { CTA } from '@components/CTA'
 import { Footer } from '@components/Footer'
 import React from 'react'
 import SideBar from '@components/SideBar'
+import ContentView from '@components/ContentView'
 
 const Evaluation = () => {
   return (<Container h="100vh">
     <SideBar/>
-    <Main>
+    <ContentView>
       Evaluation Page
-    </Main>
+    </ContentView>
     <DarkModeSwitch/>
   </Container>)
 };

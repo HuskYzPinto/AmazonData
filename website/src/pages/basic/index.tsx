@@ -12,12 +12,13 @@ import { Main } from '@components/Main';
 import { DarkModeSwitch } from '@components/DarkModeSwitch';
 import SideBar from '@components/SideBar';
 import React from "react"
+import ContentView from '@components/ContentView';
 const Basic = () => {
   return (<Container h="100vh">
             <SideBar/>
-            <Main>
+            <ContentView>
               <Flex>Hello</Flex>
-            </Main>
+            </ContentView>
             <DarkModeSwitch/>
           </Container>)
 };

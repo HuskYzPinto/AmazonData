@@ -11,13 +11,14 @@ import { Main } from '@components/Main';
 import { DarkModeSwitch } from '@components/DarkModeSwitch';
 import SideBar from '@components/SideBar';
 import React from "react"
+import ContentView from '@components/ContentView';
 
 const Advanced = () => {
   return (<Container h="100vh">
     <SideBar/>
-    <Main>
+    <ContentView>
       Advanced Analysis here
-    </Main>
+    </ContentView>
     <DarkModeSwitch/>
   </Container>)
 };
