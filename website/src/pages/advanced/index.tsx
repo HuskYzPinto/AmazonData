@@ -6,18 +6,21 @@ import {
   ListIcon,
   ListItem,
 } from '@chakra-ui/react'
-import { CheckCircleIcon, LinkIcon } from '@chakra-ui/icons'
-
-import { Hero } from '@components/Hero'
-import { Container } from '@components/Container'
-import { Main } from '@components/Main'
-import { DarkModeSwitch } from '@components/DarkModeSwitch'
-import { CTA } from '@components/CTA'
-import { Footer } from '@components/Footer'
-
+import { Container } from '@components/Container';
+import { Main } from '@components/Main';
+import { DarkModeSwitch } from '@components/DarkModeSwitch';
+import SideBar from '@components/SideBar';
+import { Hero } from '@components/Hero';
+import React from "react"
 
 const Advanced = () => {
-  return <Container></Container>
-}
+  return (<Container h="100vh">
+    <SideBar/>
+    <Main>
+      Advanced Analysis here
+    </Main>
+    <DarkModeSwitch/>
+  </Container>)
+};
 
 export default Advanced;

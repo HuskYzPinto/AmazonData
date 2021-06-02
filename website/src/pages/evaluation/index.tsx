@@ -14,9 +14,16 @@ import { Main } from '@components/Main'
 import { DarkModeSwitch } from '@components/DarkModeSwitch'
 import { CTA } from '@components/CTA'
 import { Footer } from '@components/Footer'
+import React from 'react'
+import SideBar from '@components/SideBar'
 
 const Evaluation = () => {
-  return <Container></Container>;
+  return (<Container h="100vh">
+    <SideBar/>
+    <Main>
+      Evaluation Page
+    </Main>
+    <DarkModeSwitch/>
+  </Container>)
 };
-
 export default Evaluation;
